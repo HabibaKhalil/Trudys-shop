@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         String email = user.get("email");
 
         // Displaying the user details on the screen
-        txtName.setText(name);
+        txtName.setText(name + "");
         txtEmail.setText(email);
 
 
